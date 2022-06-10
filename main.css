@@ -42,8 +42,8 @@ h1, h2, h3, h4, h5, h6, p{
   top: 715px;
 }
 .btn1{
-  border: none;
   background: #F9B640;
+  border: none;
   font-size: 16px;
   line-height: 23px;
   letter-spacing: 0.1em;
@@ -56,14 +56,20 @@ h1, h2, h3, h4, h5, h6, p{
 .btn2{
   background: none;
   border: none;
+  box-sizing: border-box;
   font-size: 16px;
   line-height: 23px;
   margin-left: 40px;
   letter-spacing: 0.1em;
+  text-align: center;
   color: #FAB63E;
   height: 50px;
   text-transform: uppercase;
   cursor: pointer;
+}
+.btn2:hover{
+  margin-left: 38px;
+  border: 2px solid #FAB63E;
 }
 header h3{
   font-size: 24px;
@@ -89,29 +95,260 @@ header h4{
   height: 544.93px;
   left: 77.1%;
   top: 20px;
-
   background: #EDFDFF;
   border-radius: 312.159px;
   transform: matrix(-0.5, 0.87, 0.87, 0.5, 0, 0);
 }
 .image_1{
   position: absolute;
-  width: 1126px;
-  height: 750px;
-  left: 457px;
-  top: 0px;
-  background: linear-gradient(213.71deg, #FFFFFF 11.23%, 
-  rgba(255, 255, 255, 0) 48.4%), 
-  url('media/linkedin-sales-navigator-406825.png') 0 0 / 100% 100% no-repeat;
-}
-.image_1_transform{
-  position: absolute;
-  display: none;
   width: 807.71px;
   height: 544.93px;
-  left: 698px;
+  right: -35%;
   top: 50px;
-  background: #000;
   border-radius: 312.159px;
   transform: matrix(-0.87, 0.5, 0.5, 0.87, 0, 0);
+}
+.sec1{
+  display: flex;
+  height: 604px;
+  color: #fff;
+}
+.text_2{
+  position: relative;
+  width: 63%;
+  box-sizing: border-box;
+  padding: 95px 12.4%;
+  background: #62D0DF;
+}
+.text_2 h2{
+  position: absolute;
+  top: 151px;
+  font-family: 'Larsseit';
+  font-size: 36px;
+  line-height: 27px;
+  letter-spacing: -0.006em;
+}
+.meaning{
+  display: inline;
+  position: absolute;
+  top: 277px;
+  width: 61%;
+  font-family: 'Larsseit';
+}
+.meaning h4{
+  font-size: 24px;
+  line-height: 35px;
+  margin-bottom: 10px;
+}
+.meaning p{
+  font-size: 20px;
+  line-height: 29px;
+}
+.image_2{
+  width: 37%;
+  background: url('media/christopher-campbell-40367.png') 0 0 no-repeat;
+}
+.sec2{
+  position: relative;
+  height: 481px;
+}
+.about{
+  position: absolute;
+  text-transform: uppercase;
+  top: 156px;
+  left: 7.36%;
+}
+.text_3{
+  position: absolute;
+  top: 150px;
+  left: 29.4%;
+  width: 41.1%;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0.005em;
+  color: #22356F;
+}
+.text_4{
+  position: absolute;
+  top: 436px;
+  text-transform: uppercase;
+  left: 43%;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.06em;
+}
+
+.cards_1{
+  display: flex;
+  height: 360px;
+  margin-bottom: 120px;
+}
+.cards{
+  padding: 72px 5.5%;
+  font-family: 'Larsseit';
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.006em;
+  color: #FFFFFF;
+}
+.cards_1 .card_1{
+  width: 25%;
+  background: #FFE2DE;
+}
+.cards_1 .card_2{
+  width: 25%;
+  background: #C4E769;
+}
+.cards_1 .card_3{
+  width: 25%;
+  background: #62D0DF;
+}
+.cards_1 .card_4{
+  width: 25%;
+  background: #0052C1;
+}
+.cards hr{
+  background: #fff;
+  margin: 0;
+  border: none;
+  height: 1px;
+}
+.cards ul{
+  list-style:url('media/Ellipse.svg');
+  margin: 0;
+  padding: 15px;
+}
+
+.cards_2{
+  margin-bottom: 22px;
+}
+.cards_2 .flour_1,
+.cards_2 .flour_2{
+  display: flex;
+  justify-content: space-between;
+  height: 480px;
+}
+.flour_1 div,
+.flour_2 div{
+  width: 33.3%;
+}
+.cards_2 .flour_1 .card1{
+  background: #22356F;
+}
+.cards_2 .flour_1 .card2{
+  background: #0052C1;
+}
+.cards_2 .flour_1 .card3{
+  background: url('media/joanna-kosinska-340748.png') no-repeat;
+}
+.cards_2 .flour_2 .card1{
+  background: #62D0DF;
+}
+.cards_2 .flour_2 .card2{
+  background: #DEE1FF;
+}
+.cards_2 .flour_2 .card3{
+  background: #8F00FF;
+}
+
+.cards_3 .flour_1,
+.cards_3 .flour_2{
+  display: flex;
+  justify-content: space-between;
+  height: 280px;
+}
+.cards_3 .flour_1 div,
+.cards_3 .flour_2 div{
+  padding: 45px 5.9%;
+}
+.cards_3 h4{
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: -0.03em;
+  color: #22356F;
+  margin-bottom: 28px;
+}
+.cards_3 h6{
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  color: rgba(34, 53, 111, 0.5);
+}
+
+.sec6{
+  position: relative;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+.sec6 .image{
+  height: 700px;
+  width: 40%;
+  background: url('media/linkedin-sales-navigator-402831.png') 0 0 no-repeat fixed;
+}
+.sec6 .text_5{
+  width: 60%;
+  padding: 50px 12.5%;
+}
+.sec6 .text_5 h5{
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+  margin-bottom: 190px;
+  color: #22356F;
+}
+.sec6 .text_5 h2{
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.01em;
+  color: #22356F;
+}
+.cross{
+  position: absolute;
+  bottom: 50px;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  margin-top: 155px;
+}
+.cross a{
+  color: #FAB63E;
+  text-decoration: none;
+}
+
+.sec7{
+  position: relative;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+.sec7 .text_6{
+  background: #22356F;
+  color: #fff;
+  width: 60%;
+  padding: 50px 12.5%;
+}
+.sec7 .text_6 h5{
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+  margin-bottom: 190px;
+}
+.sec7 .text_6 h2{
+  font-size: 64px;
+  line-height: 94px;
+  letter-spacing: -0.01em;
+  margin: 180px 0 60px 0;
+}
+.sec7 .text_6 h3{
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.005em;
+}
+.sec7 .image{
+  width: 40%;
+  background: url('media/charles-etoroma-390119.png') top right no-repeat fixed;
 }
